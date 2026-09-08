@@ -1,0 +1,20 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Local test outputs
+self-test-result.txt
+화면예시-test.png
+
+# Local data / backup files - never commit personal data
+records.dat
+records.dat.*
+*.vtbackup
+
+# Release output
+publish/
+release/
+*.zip
